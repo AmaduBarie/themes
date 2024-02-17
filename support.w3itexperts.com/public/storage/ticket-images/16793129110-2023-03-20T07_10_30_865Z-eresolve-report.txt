@@ -1,0 +1,84 @@
+'Log files:
+C:\Users\Peocit\AppData\Local\npm-cache\_logs\2023-03-20T07_10_30_865Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @metismenu/angular@0.0.2
+Found: @angular/common@12.2.5
+node_modules/@angular/common
+  peer @angular/common@"^12.0.0 || ^13.0.0-0" from @angular/cdk@12.2.5
+  node_modules/@angular/cdk
+    peer @angular/cdk@"12.2.5" from @angular/material@12.2.5
+    node_modules/@angular/material
+      @angular/material@"^12.2.5" from the root project
+    @angular/cdk@"^12.2.5" from the root project
+  peer @angular/common@"12.2.5" from @angular/forms@12.2.5
+  node_modules/@angular/forms
+    peer @angular/forms@"^12.0.0 || ^13.0.0-0" from @angular/material@12.2.5
+    node_modules/@angular/material
+      @angular/material@"^12.2.5" from the root project
+    peer @angular/forms@"^12.0.0" from @ng-bootstrap/ng-bootstrap@10.0.0
+    node_modules/@ng-bootstrap/ng-bootstrap
+      @ng-bootstrap/ng-bootstrap@"^10.0.0" from the root project
+    @angular/forms@"~12.2.0" from the root project
+  peer @angular/common@"^12.0.0 || ^13.0.0-0" from @angular/material@12.2.5
+  node_modules/@angular/material
+    @angular/material@"^12.2.5" from the root project
+  peer @angular/common@"12.2.5" from @angular/platform-browser@12.2.5
+  node_modules/@angular/platform-browser
+    peer @angular/platform-browser@"12.2.5" from @angular/forms@12.2.5
+    node_modules/@angular/forms
+      peer @angular/forms@"^12.0.0 || ^13.0.0-0" from @angular/material@12.2.5
+      node_modules/@angular/material
+        @angular/material@"^12.2.5" from the root project
+      peer @angular/forms@"^12.0.0" from @ng-bootstrap/ng-bootstrap@10.0.0
+      node_modules/@ng-bootstrap/ng-bootstrap
+        @ng-bootstrap/ng-bootstrap@"^10.0.0" from the root project
+      @angular/forms@"~12.2.0" from the root project
+    peer @angular/platform-browser@"12.2.5" from @angular/platform-browser-dynamic@12.2.5
+    node_modules/@angular/platform-browser-dynamic
+      @angular/platform-browser-dynamic@"~12.2.0" from the root project
+    peer @angular/platform-browser@"12.2.5" from @angular/router@12.2.5
+    node_modules/@angular/router
+      @angular/router@"~12.2.0" from the root project
+    @angular/platform-browser@"~12.2.0" from the root project
+  peer @angular/common@"12.2.5" from @angular/platform-browser-dynamic@12.2.5
+  node_modules/@angular/platform-browser-dynamic
+    @angular/platform-browser-dynamic@"~12.2.0" from the root project
+  peer @angular/common@"12.2.5" from @angular/router@12.2.5
+  node_modules/@angular/router
+    @angular/router@"~12.2.0" from the root project
+  peer @angular/common@"9 - 12" from @fullcalendar/angular@5.9.0
+  node_modules/@fullcalendar/angular
+    @fullcalendar/angular@"^5.9.0" from the root project
+  peer @angular/common@"^12.0.0" from @ng-bootstrap/ng-bootstrap@10.0.0
+  node_modules/@ng-bootstrap/ng-bootstrap
+    @ng-bootstrap/ng-bootstrap@"^10.0.0" from the root project
+  peer @angular/common@">=9.0.0 <13.0.0" from ng-apexcharts@1.5.12
+  node_modules/ng-apexcharts
+    ng-apexcharts@"^1.5.12" from the root project
+  peer @angular/common@" ^12.0.0-rc.0 || ^12.0.0" from ngx-owl-carousel-o@6.0.0
+  node_modules/ngx-owl-carousel-o
+    ngx-owl-carousel-o@"^6.0.0" from the root project
+  peer @angular/common@">=9.0.0" from ngx-perfect-scrollbar@10.1.1
+  node_modules/ngx-perfect-scrollbar
+    ngx-perfect-scrollbar@"^10.1.1" from the root project
+  peer @angular/common@"^12.0.0" from ngx-spinner@12.0.0
+  node_modules/ngx-spinner
+    ngx-spinner@"^12.0.0" from the root project
+  @angular/common@"~12.2.0" from the root project
+
+Could not resolve dependency:
+peer @angular/common@"^10.0.2" from @metismenu/angular@0.0.2
+node_modules/@metismenu/angular
+  @metismenu/angular@"0.0.2" from the root project
+
+Conflicting peer dependency: @angular/common@10.2.5
+node_modules/@angular/common
+  peer @angular/common@"^10.0.2" from @metismenu/angular@0.0.2
+  node_modules/@metismenu/angular
+    @metismenu/angular@"0.0.2" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
